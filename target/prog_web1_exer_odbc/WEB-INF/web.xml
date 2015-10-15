@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+<env-entry> 
+    <env-entry-name>driver</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value>oracle.jdbc.driver.OracleDriver</env-entry-value> 
+</env-entry>
+<env-entry> 
+    <env-entry-name>host</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value>jdbc:oracle:thin:@oracle.inf.poa.ifrs.edu.br:1521:XE</env-entry-value> 
+</env-entry>
+<env-entry> 
+    <env-entry-name>user</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value>karen</env-entry-value> 
+</env-entry>
+
+<env-entry> 
+    <env-entry-name>password</env-entry-name>
+    <env-entry-type>java.lang.String</env-entry-type>
+    <env-entry-value>karen</env-entry-value> 
+</env-entry>
+</web-app>
